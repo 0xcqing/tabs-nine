@@ -1,0 +1,7 @@
+This entry for the "How Many Tabs Do You Have Open?" bounty sends the number `9`: a single digit, one honest count of open browser tabs, and nothing else. It is deliberately low, odd and non-round, so against a field of mid-range counts, round shock figures and big hoards it reads as a maintained habit rather than a residue — someone who keeps a small working set and prunes it. `main.ts` is a zero-dependency Node 22+ program that creates the output directory (from `MAKEFUN_OUTPUT_DIR`, or `/output` by default), writes exactly the digit `9` followed by one trailing newline as UTF-8 to `entry.txt`, asserts the payload is 1..5 characters and bytes and digits-only, then reads the file back and compares it byte for byte before printing the character count, byte count and file size.
+
+[![make.fun](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d)
+[![rank](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d/0xcqing/tabs-nine/rank.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d/leaderboard)
+[![reward](https://make.fun/badge/u-danu-how-many-tabs-do-you-have-open-d86e783d/0xcqing/tabs-nine/reward.svg)](https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d)
+
+Bounty: https://make.fun/bounty/u-danu-how-many-tabs-do-you-have-open-d86e783d
